@@ -1,0 +1,212 @@
+:root {
+  --body-main-color: #212121;
+  --footer-background-color: #2f303a;
+  --logo-color-1: #000000;
+  --logo-color-2: #2196f3;
+  --logo-color-3: #ffffff;
+  --header-hover-color: #2196f3;
+  --contacts-color: #757575;
+  --hero-background-color: #2f303a;
+  --hero-title-color: #ffffff;
+  --hero-btn-color: #ffffff;
+  --hero-btn-background-color: #2196f3;
+  --skills-description-color: #757575;
+  --command-position-color: #757575;
+  --portfolio-btn-hover-color: #ffffff;
+  --portfolio-btn-background-color: #2196f3;
+  --portfolio-type-color: #757575;
+  --adress-color: #ffffff;
+  --adress-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--body-main-color);
+}
+
+footer {
+  background-color: var(--footer-background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*--------------------------header--------------------------*/
+
+.logo-header-1,
+.logo-header-2 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.logo-header-1 {
+  color: var(--logo-color-1);
+}
+
+.logo-header-2 {
+  color: var(--logo-color-2);
+}
+
+.navigation {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.navigation:hover,
+.navigation:focus,
+.contacts {
+  color: var(--header-hover-color);
+}
+
+.contacts {
+  color: var(--contacts-color);
+}
+
+/*--------------------------hero-section--------------------------*/
+
+.hero-section {
+  background-color: var(--hero-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-title-color);
+}
+
+.hero-btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--hero-btn-background-color);
+  color: var(--hero-btn-color);
+}
+
+.skills-title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.skills-description {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--skills-description-color);
+}
+
+.description-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command-position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--command-position-color);
+}
+
+/*--------------------------portfolio--------------------------*/
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  cursor: pointer;
+  background-color: var(--portfolio-btn-background-color);
+  color: var(--portfolio-btn-hover-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.portfolio-type {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--portfolio-type-color);
+}
+
+/*--------------------------footer--------------------------*/
+
+.logo-footer-1,
+.logo-footer-2 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.logo-footer-1 {
+  color: var(--logo-color-3);
+}
+
+.logo-footer-2 {
+  color: var(--logo-color-2);
+}
+.adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--adress-color);
+}
+
+.adress-contacts {
+  font-style: normal;
+  color: var(--adress-contacts-color);
+}
