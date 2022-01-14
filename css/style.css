@@ -148,7 +148,9 @@ li {
 }
 
 /*--------------------------portfolio--------------------------*/
-
+.portfolio-navigation-section > h2 {
+  display: none;
+}
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -198,7 +200,7 @@ li {
   color: var(--logo-color-2);
 }
 .adress {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -208,5 +210,8 @@ li {
 
 .adress-contacts {
   font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   color: var(--adress-contacts-color);
 }
