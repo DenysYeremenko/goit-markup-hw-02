@@ -151,6 +151,11 @@ li {
 .portfolio-navigation-section > h2 {
   display: none;
 }
+
+.portfolio-elements-section > h2 {
+  display: none;
+}
+
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
